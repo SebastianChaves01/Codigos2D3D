@@ -42,7 +42,7 @@ public class EnemigoSiguePlayer : MonoBehaviour
 
         }
         else {
-            animator.SetTrigger("NOCamina");
+            animator.SetTrigger("NOseguir");
 
         }
     }

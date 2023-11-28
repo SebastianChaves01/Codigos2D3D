@@ -6,6 +6,7 @@ public class MenuPausa : MonoBehaviour
 {
     [SerializeField] GameObject panelPausa;
     [SerializeField] bool estadoPanelPausa;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +27,15 @@ public class MenuPausa : MonoBehaviour
             
         
         }
-    }
+        if (estadoPanelPausa)
+        {
+            Time.timeScale = 0;
+        }
+        else {
+            Time.timeScale =1;
+        }
 
-    public void Pausa() {
-
-        panelPausa.SetActive(false);
+        
     }
+   
 }
