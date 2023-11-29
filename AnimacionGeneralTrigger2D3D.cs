@@ -21,9 +21,10 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
         -> si queiro dejar la animacion en el ultimo frame quiro el loop
     */
 
-    void Update()
+
+    private void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter(Collider other)
