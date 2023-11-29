@@ -6,9 +6,11 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
 {
     Animator animator;
 
-    //este es es el codigo de animacion genera
+    
 
     /*
+     --- INDICACIONES ---
+
     -> Crear un objeto  vaio padre y poner este codigo
     -> Colocar los objetos a realizar la animacion como hijos 
     -> Cear la animacion con los objetos hijos
