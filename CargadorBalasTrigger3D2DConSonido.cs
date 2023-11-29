@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CargadorBalasTrigger3D2DConSonido : MonoBehaviour
+public class CargadorBalasTrigger3D2D : MonoBehaviour
 {
     [SerializeField] int balasRecogidas;
 
