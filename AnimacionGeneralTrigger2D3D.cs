@@ -32,7 +32,11 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
         if (other.CompareTag("Player")) {
             animator.SetTrigger("animacion");
               
+        }
 
+        if (other.CompareTag("Bala"))
+        {
+            animator.SetTrigger("animacion");
 
         }
     }
