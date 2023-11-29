@@ -6,19 +6,19 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
 {
     Animator animator;
 
-
+    //este es es el codigo de animacion genera
 
     /*
     -> Crear un objeto  vaio padre y poner este codigo
-    -> Colocar los objetos a realizar la animacion com hijos 
-    -> Cear la animacion
+    -> Colocar los objetos a realizar la animacion como hijos 
+    -> Cear la animacion con los objetos hijos
     -> crear un parametro trigger llamado animacion
-    -> crear un estado vacio  y colcoarlo como animacion principal 
-    -> conectar el estado vacio y conectarla con la animacion anteriormente creada
+    -> crear un estado vacio  y colocarlo como animacion principal 
+    -> conectar el estado vacio con la animacion anteriormente creada
     -> colocar el parametro como condicion  entre la transicion
     -> opcional
         -> si quiero repetir la animacion colocar una flecha de vuelta sin condicion
-        -> si queiro dejar la animacion en el ultimo frame quiro el loop
+        -> si queiro dejar la animacion en el ultimo frame quito el loop de la animacion 
     */
 
 
