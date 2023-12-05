@@ -32,12 +32,12 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) {
+
+
             animator.SetTrigger("ActivarAnimacion");
             print("Animacion");
               
         }
-
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
