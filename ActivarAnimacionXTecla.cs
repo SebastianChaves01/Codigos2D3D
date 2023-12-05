@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
+
 public class ActivarAnimacionXTecla : MonoBehaviour
 {
     [SerializeField] GameObject texto;
+    
     
     Animator animator;
     bool permitirAnimacion;
