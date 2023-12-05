@@ -32,13 +32,14 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) {
-            animator.SetTrigger("animacion");
+            animator.SetTrigger("ActivarAnimacion");
+            print("Animacion");
               
         }
 
         if (other.CompareTag("Bala"))
         {
-            animator.SetTrigger("animacion");
+            animator.SetTrigger("AbrirPuerta");
 
         }
     }
@@ -47,7 +48,7 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            animator.SetTrigger("animacion");
+            animator.SetTrigger("CerrarPuerta");
 
 
 
