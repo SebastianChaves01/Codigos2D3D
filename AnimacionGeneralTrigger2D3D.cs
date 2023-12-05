@@ -37,20 +37,15 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
               
         }
 
-        if (other.CompareTag("Bala"))
-        {
-            animator.SetTrigger("AbrirPuerta");
-
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            animator.SetTrigger("CerrarPuerta");
-
-
+            animator.SetTrigger("ActivarAnimacion");
+            print("Animacion");
 
         }
     }
