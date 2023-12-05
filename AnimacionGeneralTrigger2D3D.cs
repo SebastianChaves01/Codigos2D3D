@@ -33,7 +33,7 @@ public class AnimacionGeneralTrigger2D3D : MonoBehaviour
     {
         if (other.CompareTag("Player")) {
 
-
+            //Nombre parametro ActivarAnimacion, lo pueden modificar a su gusto
             animator.SetTrigger("ActivarAnimacion");
             print("Animacion");
               

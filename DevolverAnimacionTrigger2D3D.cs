@@ -22,6 +22,7 @@ public class DevolverAnimacionTrigger2D3D : MonoBehaviour
     {
         if (other.CompareTag("Player")) {
 
+            //Nombre parametro DevolverAnimacion, lo pueden modificar a su gusto
             animator.SetTrigger("DevolverAnimacion");
             print("Salio El player");
         }
